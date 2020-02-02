@@ -237,7 +237,7 @@ function onDocumentKeyPress( event ) {
 function loadFont() {
 
   var loader = new THREE.FontLoader();
-  loader.load( '/node_modules/three/examples/fonts/' + fontName + '_' + fontWeight + '.typeface.json', function ( response ) {
+  loader.load( './fonts/' + fontName + '_' + fontWeight + '.typeface.json', function ( response ) {
 
     font = response;
 
