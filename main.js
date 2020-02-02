@@ -1,5 +1,5 @@
-import * as THREE from '/node_modules/three/build/three.module.js';
-import { GeometryUtils } from '/node_modules/three/examples/jsm/utils/GeometryUtils.js';
+import * as THREE from './three.module.js';
+import { GeometryUtils } from './GeometryUtils.js';
 
 THREE.Cache.enabled = true;
 
